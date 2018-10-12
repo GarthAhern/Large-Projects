@@ -6,15 +6,50 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Exercise p. 66
-            Console.WriteLine("Please give me a number: ");
-            decimal x = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine("Your number multiplied by 50 is: " + (x * 50));
-            Console.WriteLine("Your number multiplied plus 25 is: " + (x + 25));
 
-            Console.WriteLine("Your number divided by 12.5 is: " + (x / 12.5m));
-            Console.WriteLine("The remainder of your number after dividing by 7 is: " + (x % 7));
+
+
+            Console.WriteLine("Anonymous Income Comparison Program: \n Person 1: \nPlease enter Hourly Rate: ");
+            double hourlyRate1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please enter the number of hours worked per week: ");
+            double hoursWorkedPerWeek1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\n Person 2: \nPlease enter Hourly Rate: ");
+            double hourlyRate2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please enter the number of hours worked per week: ");
+            double hoursWorkedPerWeek2 = Convert.ToDouble(Console.ReadLine());
+            double AnnualSalary1 = (hourlyRate1 * hoursWorkedPerWeek1 * 52);
+            double AnnualSalary2 = (hourlyRate2 * hoursWorkedPerWeek2 * 52);
+            Console.WriteLine("Annual Salary of Person 1: $" + AnnualSalary1);
+            Console.WriteLine("Annual Salary of Person 1: $" + AnnualSalary2);
+
+            Console.WriteLine("Does Person 1 make more than Person 2?");
+            if (AnnualSalary1 > AnnualSalary2)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+
+            }
+
             Console.ReadLine();
+
+
+
+
+
+
+            ////Exercise p. 66
+            //Console.WriteLine("Please give me a number: ");
+            //decimal x = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine("Your number multiplied by 50 is: " + (x * 50));
+            //Console.WriteLine("Your number multiplied plus 25 is: " + (x + 25));
+
+            //Console.WriteLine("Your number divided by 12.5 is: " + (x / 12.5m));
+            //Console.WriteLine("The remainder of your number after dividing by 7 is: " + (x % 7));
+            //Console.ReadLine();
 
 
 
