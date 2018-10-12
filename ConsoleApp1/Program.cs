@@ -6,35 +6,68 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
-
-
-            Console.WriteLine("Anonymous Income Comparison Program: \n Person 1: \nPlease enter Hourly Rate: ");
-            double hourlyRate1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please enter the number of hours worked per week: ");
-            double hoursWorkedPerWeek1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("\n Person 2: \nPlease enter Hourly Rate: ");
-            double hourlyRate2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please enter the number of hours worked per week: ");
-            double hoursWorkedPerWeek2 = Convert.ToDouble(Console.ReadLine());
-            double AnnualSalary1 = (hourlyRate1 * hoursWorkedPerWeek1 * 52);
-            double AnnualSalary2 = (hourlyRate2 * hoursWorkedPerWeek2 * 52);
-            Console.WriteLine("Annual Salary of Person 1: $" + AnnualSalary1);
-            Console.WriteLine("Annual Salary of Person 1: $" + AnnualSalary2);
-
-            Console.WriteLine("Does Person 1 make more than Person 2?");
-            if (AnnualSalary1 > AnnualSalary2)
+            bool dui = true;
+            Console.WriteLine("What is your age?");
+            double age = Convert.ToDouble(Console.ReadLine());
+            bool d = false;         
+            while (d == false){
+                Console.WriteLine("Have you ever had a DUI?");
+                string DUI = Console.ReadLine();
+                
+                if (DUI == "yes")
+                {
+                    dui = true;
+                    d = true;
+                }
+                else if (DUI == "no") {
+                    dui = false;
+                    d = true;
+                }
+                
+            }
+         
+            Console.WriteLine("How many speeding tickets do you have?");
+            int tickets = Convert.ToInt16(Console.ReadLine());
+            if(age >= 15 && dui == false && tickets <= 3) 
             {
-                Console.WriteLine("True");
+                Console.WriteLine("Congratulations, you qualify for car insurance!");
+                Console.ReadLine();
             }
             else
             {
-                Console.WriteLine("False");
-
+                Console.WriteLine("Sorry, but you do not qualify.");
+                Console.ReadLine();
             }
 
-            Console.ReadLine();
+            //Console.WriteLine(9 > 8 && 7 < 6);
+            //Console.ReadLine();
+            
+            //Console.WriteLine("Anonymous Income Comparison Program: \n Person 1: \nPlease enter Hourly Rate: ");
+            //double hourlyRate1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Please enter the number of hours worked per week: ");
+            //double hoursWorkedPerWeek1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("\n Person 2: \nPlease enter Hourly Rate: ");
+            //double hourlyRate2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Please enter the number of hours worked per week: ");
+            //double hoursWorkedPerWeek2 = Convert.ToDouble(Console.ReadLine());
+            //double AnnualSalary1 = (hourlyRate1 * hoursWorkedPerWeek1 * 52);
+            //double AnnualSalary2 = (hourlyRate2 * hoursWorkedPerWeek2 * 52);
+            //Console.WriteLine("Annual Salary of Person 1: $" + AnnualSalary1);
+            //Console.WriteLine("Annual Salary of Person 1: $" + AnnualSalary2);
+
+            //Console.WriteLine("Does Person 1 make more than Person 2?");
+            //if (AnnualSalary1 > AnnualSalary2)
+            //{
+            //    Console.WriteLine("True");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("False");
+
+            //}
+
+            //Console.ReadLine();
 
 
 
