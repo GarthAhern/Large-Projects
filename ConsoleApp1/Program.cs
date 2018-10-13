@@ -6,42 +6,105 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            bool dui = true;
-            Console.WriteLine("What is your age?");
-            double age = Convert.ToDouble(Console.ReadLine());
-            bool d = false;         
-            while (d == false){
-                Console.WriteLine("Have you ever had a DUI?");
-                string DUI = Console.ReadLine();
-                
-                if (DUI == "yes")
-                {
-                    dui = true;
-                    d = true;
-                }
-                else if (DUI == "no") {
-                    dui = false;
-                    d = true;
-                }
+
+
+
+
+            Console.WriteLine("Welcome to Package Express.Please follow the instructions below.");
+            Console.WriteLine("Please sir, what is the package weight?");
+            double wght = Convert.ToDouble(Console.ReadLine());
+
+            if (wght > 50)
+            {
+
+                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+                Console.ReadLine();
+
+                return;
                 
             }
-         
-            Console.WriteLine("How many speeding tickets do you have?");
-            int tickets = Convert.ToInt16(Console.ReadLine());
-            if(age >= 15 && dui == false && tickets <= 3) 
+
+            Console.WriteLine("Please sir, what is the width?");
+            double width = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Please sir, what is the height?");
+            double height = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Please sir, what is the length?");
+            double length = Convert.ToDouble(Console.ReadLine());
+
+            Console.ReadLine();
+
+
+            double total = length + height + width;
+            if (total > 50)
             {
-                Console.WriteLine("Congratulations, you qualify for car insurance!");
+                Console.WriteLine("Package too big to be shipped via Package Express. Have a good day.");
                 Console.ReadLine();
+                return;
+
             }
-            else
-            {
-                Console.WriteLine("Sorry, but you do not qualify.");
-                Console.ReadLine();
-            }
+            double quote = (total * wght) / 100;
+            Console.WriteLine("Your estimated total for shipping this package is: $" + quote);
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+            //int roomTemperature = 70;
+            //Console.WriteLine("Hi, what is your name?");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Hi, " + name + ", what is the temperature where you are?");
+            //int currentTemperature = Convert.ToInt32(Console.ReadLine
+
+
+            //int currentTemp = 80;
+            //int roomTemp = 80;
+            //string comparisonResult = currentTemp == roomTemp ? "It is room temp." : "It is not room temp.";
+            //Console.WriteLine(comparisonResult);
+            //Console.ReadLine();
+
+
+            //bool dui = true;
+            //Console.WriteLine("What is your age?");
+            //double age = Convert.ToDouble(Console.ReadLine());
+            //bool d = false;         
+            //while (d == false){
+            //    Console.WriteLine("Have you ever had a DUI?");
+            //    string DUI = Console.ReadLine();
+
+            //    if (DUI == "yes")
+            //    {
+            //        dui = true;
+            //        d = true;
+            //    }
+            //    else if (DUI == "no") {
+            //        dui = false;
+            //        d = true;
+            //    }
+
+            //}
+
+            //Console.WriteLine("How many speeding tickets do you have?");
+            //int tickets = Convert.ToInt16(Console.ReadLine());
+            //if(age >= 15 && dui == false && tickets <= 3) 
+            //{
+            //    Console.WriteLine("Congratulations, you qualify for car insurance!");
+            //    Console.ReadLine();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sorry, but you do not qualify.");
+            //    Console.ReadLine();
+            //}
 
             //Console.WriteLine(9 > 8 && 7 < 6);
             //Console.ReadLine();
-            
+
             //Console.WriteLine("Anonymous Income Comparison Program: \n Person 1: \nPlease enter Hourly Rate: ");
             //double hourlyRate1 = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine("Please enter the number of hours worked per week: ");
