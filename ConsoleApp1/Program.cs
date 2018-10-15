@@ -4,50 +4,225 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+
+        
 
 
 
+        static void Main(string[] args) {
 
-            Console.WriteLine("Welcome to Package Express.Please follow the instructions below.");
-            Console.WriteLine("Please sir, what is the package weight?");
-            double wght = Convert.ToDouble(Console.ReadLine());
-
-            if (wght > 50)
+            int x = 0;
+            bool speed = false;
+            while (speed == false)
             {
+                switch (x)
+               {
 
-                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
-                Console.ReadLine();
+                        case 1:
 
-                return;
-                
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+
+
+                case 2:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+                case 4:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+                case 5:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+                case 6:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+                case 7:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+
+                case 8:
+                    Console.WriteLine("Sorry, but no.");
+                    break;
+                case 9:
+                    Console.WriteLine("Congrats.");
+                        speed = true;
+                        break;
+
+                default:
+                    Console.WriteLine("You are wrong");
+                        
+                        break;
+                }
+                x++;
             }
-
-            Console.WriteLine("Please sir, what is the width?");
-            double width = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Please sir, what is the height?");
-            double height = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Please sir, what is the length?");
-            double length = Convert.ToDouble(Console.ReadLine());
-
             Console.ReadLine();
 
 
-            double total = length + height + width;
-            if (total > 50)
+
+            int y = 0;
+            bool choice = true;
+            
+                do
             {
-                Console.WriteLine("Package too big to be shipped via Package Express. Have a good day.");
-                Console.ReadLine();
-                return;
+                switch (y)
+                {
 
+                    case 1:
+
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+
+
+                    case 2:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+                    case 4:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+                    case 5:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+                    case 6:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+                    case 7:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+
+                    case 8:
+                        Console.WriteLine("Sorry, but no.");
+                        break;
+                    case 9:
+                        Console.WriteLine("Congrats.");
+                        
+                        break;
+
+                    default:
+                        Console.WriteLine("You are wrong");
+                        choice = true;
+                            break;
+                }
             }
-            double quote = (total * wght) / 100;
-            Console.WriteLine("Your estimated total for shipping this package is: $" + quote);
-
+            while (choice == false);
             Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+            //bool bob = false;
+            //while (!bob)
+            //{
+
+            //}
+
+            //bool isGuessed = false;
+            //while (!isGuessed)
+            //{
+            //    Console.WriteLine("Please guess a number between 1 and 10.");
+            //    int number = Convert.ToInt16(Console.ReadLine());
+            //    switch (number)
+            //    {
+
+            //        case 1:
+
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+
+            //        case 2:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+            //        case 3:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 4:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 5:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 6:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 7:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+            //        case 8:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 9:
+            //            Console.WriteLine("Congrats.");
+            //            isGuessed = true;
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("You are wrong");
+            //            break;
+            //    }
+
+            //}
+
+
+            //Console.Read();
+
+
+
+
+            //Console.WriteLine("Welcome to Package Express.Please follow the instructions below.");
+            //Console.WriteLine("Please sir, what is the package weight?");
+            //double wght = Convert.ToDouble(Console.ReadLine());
+
+            //if (wght > 50)
+            //{
+
+            //    Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+            //    Console.ReadLine();
+
+            //    return;
+
+            //}
+
+            //Console.WriteLine("Please sir, what is the width?");
+            //double width = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Please sir, what is the height?");
+            //double height = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Please sir, what is the length?");
+            //double length = Convert.ToDouble(Console.ReadLine());
+
+            //Console.ReadLine();
+
+
+            //double total = length + height + width;
+            //if (total > 50)
+            //{
+            //    Console.WriteLine("Package too big to be shipped via Package Express. Have a good day.");
+            //    Console.ReadLine();
+            //    return;
+
+            //}
+            //double quote = (total * wght) / 100;
+            //Console.WriteLine("Your estimated total for shipping this package is: $" + quote);
+
+            //Console.ReadLine();
 
 
 
