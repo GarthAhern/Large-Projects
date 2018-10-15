@@ -22,6 +22,10 @@ namespace Page_100_Exercise_Lists_and_Arrays
             Console.WriteLine(iarry[x]);
             Console.ReadLine();
 
+            for (x = 0;x>iarray.length;int++)
+            {
+
+            }
 
 
 

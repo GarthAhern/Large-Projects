@@ -1,0 +1,11 @@
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\bin\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.deps.json
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\bin\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.runtimeconfig.json
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\bin\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.runtimeconfig.dev.json
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\bin\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.dll
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\bin\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.pdb
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\obj\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.csproj.CoreCompileInputs.cache
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\obj\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.AssemblyInfoInputs.cache
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\obj\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.AssemblyInfo.cs
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\obj\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.dll
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\obj\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.pdb
+C:\C#\ConsoleApp1\Page 97 Exercise Modifying Strings\obj\Debug\netcoreapp2.1\Page 97 Exercise Modifying Strings.csprojAssemblyReference.cache

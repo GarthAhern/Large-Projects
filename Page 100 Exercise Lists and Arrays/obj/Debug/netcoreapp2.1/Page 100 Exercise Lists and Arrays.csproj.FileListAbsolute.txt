@@ -1,0 +1,11 @@
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\bin\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.deps.json
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\bin\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.runtimeconfig.json
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\bin\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.runtimeconfig.dev.json
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\bin\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.dll
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\bin\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.pdb
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\obj\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.csprojAssemblyReference.cache
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\obj\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.csproj.CoreCompileInputs.cache
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\obj\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.AssemblyInfoInputs.cache
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\obj\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.AssemblyInfo.cs
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\obj\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.dll
+C:\C#\ConsoleApp1\Page 100 Exercise Lists and Arrays\obj\Debug\netcoreapp2.1\Page 100 Exercise Lists and Arrays.pdb
