@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 97 Exercise Modifying Strings", "Page 97 Exercise Modifying Strings\Page 97 Exercise Modifying Strings.csproj", "{D043DF57-9DAD-4870-B1F8-3D695684702F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 100 Exercise Lists and Arrays", "Page 100 Exercise Lists and Arrays\Page 100 Exercise Lists and Arrays.csproj", "{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D043DF57-9DAD-4870-B1F8-3D695684702F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D043DF57-9DAD-4870-B1F8-3D695684702F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D043DF57-9DAD-4870-B1F8-3D695684702F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
