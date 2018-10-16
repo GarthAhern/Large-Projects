@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 100 Exercise Lists and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 103 Exercise Iterating through Arrays and Lists", "Page 103 Exercise Iterating through Arrays and Lists\Page 103 Exercise Iterating through Arrays and Lists.csproj", "{61B58F9F-1B55-4E0E-87DB-56FA3136C91A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{11105765-C33A-44FA-841E-0FEB49A1C783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{61B58F9F-1B55-4E0E-87DB-56FA3136C91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B58F9F-1B55-4E0E-87DB-56FA3136C91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B58F9F-1B55-4E0E-87DB-56FA3136C91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11105765-C33A-44FA-841E-0FEB49A1C783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11105765-C33A-44FA-841E-0FEB49A1C783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11105765-C33A-44FA-841E-0FEB49A1C783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11105765-C33A-44FA-841E-0FEB49A1C783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
