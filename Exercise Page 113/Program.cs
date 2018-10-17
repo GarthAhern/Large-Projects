@@ -10,6 +10,8 @@ namespace Exercise_Page_113
             state x = new state();
             x.Operation(x);
 
+            state y = new state(4, 5);
+
             state.Operation(3, 4);
         }
     }
