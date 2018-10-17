@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 103 Exercise Iterating
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{11105765-C33A-44FA-841E-0FEB49A1C783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Oriented Programming", "Object Oriented Programming\Object Oriented Programming.csproj", "{2B1E2710-8992-4A5F-BA67-E34402CE80F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 111 Exercise Classes and Methods", "Page 111 Exercise Classes and Methods\Page 111 Exercise Classes and Methods.csproj", "{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{11105765-C33A-44FA-841E-0FEB49A1C783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11105765-C33A-44FA-841E-0FEB49A1C783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11105765-C33A-44FA-841E-0FEB49A1C783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1E2710-8992-4A5F-BA67-E34402CE80F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1E2710-8992-4A5F-BA67-E34402CE80F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1E2710-8992-4A5F-BA67-E34402CE80F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1E2710-8992-4A5F-BA67-E34402CE80F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
