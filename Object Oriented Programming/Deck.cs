@@ -46,5 +46,15 @@ namespace Object_Oriented_Programming
             set;
         }
 
+        public void printDeck()
+        {
+            foreach (Card card in this.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+
+            }
+            Console.WriteLine(this.Cards.Count);
+        }
+
     }
 }

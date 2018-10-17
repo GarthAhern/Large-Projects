@@ -8,15 +8,20 @@ namespace Object_Oriented_Programming
         static void Main(string[] args)
         {
             Deck d = new Deck();
-            d = Shuffle(d);
+            //d = Shuffle(d);
+            d = Shuffle(d, 4);
+            d.printDeck();
+            Console.WriteLine("-----------------------------------------------");
+            Shuffle(d);
+            d.printDeck();
 
 
-            foreach(Card card in d.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
+            //foreach(Card card in d.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
 
-            }
-            Console.WriteLine(d.Cards.Count);
+            //}
+            //Console.WriteLine(d.Cards.Count);
 
 
 
@@ -38,18 +43,33 @@ namespace Object_Oriented_Programming
             Console.ReadLine();
         }
 
-        public static Deck Shuffle(Deck deck)
+        public static Deck Shuffle(Deck deck, int times = 1)//optional variable times
         {
-            List<Card> tempList = new List<Card>();
-            Random r = new Random();
-            while (deck.Cards.Count > 0)
+
+
+            for (int i = 0; i < times; i++)
             {
-                int randomIndex = r.Next(0, deck.Cards.Count);
-                tempList.Add(deck.Cards[randomIndex]);
-                deck.Cards.RemoveAt(randomIndex);
+                List<Card> tempList = new List<Card>();
+                Random r = new Random();
+                while (deck.Cards.Count > 0)
+                {
+                    int randomIndex = r.Next(0, deck.Cards.Count);
+                    tempList.Add(deck.Cards[randomIndex]);
+                    deck.Cards.RemoveAt(randomIndex);
+                }
+                deck.Cards = tempList;
             }
-            deck.Cards = tempList;
             return deck;
         }
+        //public static Deck Shuffle(Deck deck, int nums)
+        //{
+        //    for(int i = 0; i < nums; i++)
+        //    {
+        //        deck = Shuffle(deck);
+        //    }
+
+        //    return deck;
+        //}
+
     }
 }
