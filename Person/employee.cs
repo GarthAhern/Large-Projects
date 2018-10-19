@@ -13,8 +13,7 @@ namespace Person
 
         public employee()
         {
-            fname = "";
-            lname = "";
+            
             ID = 0;
         }
         public employee(int id)
@@ -22,11 +21,15 @@ namespace Person
             ID = id;
             
         }
-        public employee(string FirstName, string LastName, int id)
+        public void setID(int s)
         {
-            fname = FirstName;
-            lname = LastName;
-            ID = id;
+            ID = s;
         }
+        public int getID(employee e)
+        {
+            return e.ID; 
+        }
+         
+
     }
 }

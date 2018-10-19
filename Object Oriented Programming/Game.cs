@@ -4,14 +4,15 @@ using System.Text;
 
 namespace Object_Oriented_Programming
 {
-    public class Game
+    public abstract class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
+        public abstract void playGame();
 
-        public void ListPlayers()
+        public virtual void ListPlayers()
         {
             foreach( string player in Players)
             {

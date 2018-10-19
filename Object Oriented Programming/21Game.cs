@@ -4,9 +4,24 @@ using System.Text;
 
 namespace Object_Oriented_Programming
 {
-    public class _21Game : Game
+    public class _21Game : Game, IWalkAway
     {
 
+        public override void playGame()
+        {
 
+
+
+
+
+            throw new NotImplementedException();
+        }
+        public void WalkAway(Player player)
+        {
+
+
+            throw new NotImplementedException();
+
+        }
     }
 }
