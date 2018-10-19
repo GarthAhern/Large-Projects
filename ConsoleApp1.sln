@@ -5,25 +5,27 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9BC2A349-4A3E-493C-952E-BC4B26840DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{852D900B-156A-4170-98C6-287C6F9801DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{852D900B-156A-4170-98C6-287C6F9801DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 97 Exercise Modifying Strings", "Page 97 Exercise Modifying Strings\Page 97 Exercise Modifying Strings.csproj", "{D043DF57-9DAD-4870-B1F8-3D695684702F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Page 97 Exercise Modifying Strings", "Page 97 Exercise Modifying Strings\Page 97 Exercise Modifying Strings.csproj", "{D043DF57-9DAD-4870-B1F8-3D695684702F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 100 Exercise Lists and Arrays", "Page 100 Exercise Lists and Arrays\Page 100 Exercise Lists and Arrays.csproj", "{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Page 100 Exercise Lists and Arrays", "Page 100 Exercise Lists and Arrays\Page 100 Exercise Lists and Arrays.csproj", "{3A2B38B5-CD28-434E-A275-DC139D5F2A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 103 Exercise Iterating through Arrays and Lists", "Page 103 Exercise Iterating through Arrays and Lists\Page 103 Exercise Iterating through Arrays and Lists.csproj", "{61B58F9F-1B55-4E0E-87DB-56FA3136C91A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Page 103 Exercise Iterating through Arrays and Lists", "Page 103 Exercise Iterating through Arrays and Lists\Page 103 Exercise Iterating through Arrays and Lists.csproj", "{61B58F9F-1B55-4E0E-87DB-56FA3136C91A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{11105765-C33A-44FA-841E-0FEB49A1C783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{11105765-C33A-44FA-841E-0FEB49A1C783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Oriented Programming", "Object Oriented Programming\Object Oriented Programming.csproj", "{2B1E2710-8992-4A5F-BA67-E34402CE80F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object Oriented Programming", "Object Oriented Programming\Object Oriented Programming.csproj", "{2B1E2710-8992-4A5F-BA67-E34402CE80F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page 111 Exercise Classes and Methods", "Page 111 Exercise Classes and Methods\Page 111 Exercise Classes and Methods.csproj", "{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Page 111 Exercise Classes and Methods", "Page 111 Exercise Classes and Methods\Page 111 Exercise Classes and Methods.csproj", "{C429D424-FF09-4C24-8CE6-D0E5DE2FC7A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise Page 113", "Exercise Page 113\Exercise Page 113.csproj", "{D6F1E1A2-2889-4463-BC0A-5D159026C4F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise Page 113", "Exercise Page 113\Exercise Page 113.csproj", "{D6F1E1A2-2889-4463-BC0A-5D159026C4F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise Page 114", "Exercise Page 114\Exercise Page 114.csproj", "{05F430B1-7EC1-45BB-9FF7-06BE9C4C3C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise Page 114", "Exercise Page 114\Exercise Page 114.csproj", "{05F430B1-7EC1-45BB-9FF7-06BE9C4C3C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise115", "Exercise115\Exercise115.csproj", "{8D295C70-521F-48AC-8C48-3A4E83FA900F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise115", "Exercise115\Exercise115.csproj", "{8D295C70-521F-48AC-8C48-3A4E83FA900F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 117", "Exercise 117\Exercise 117.csproj", "{8428B099-3FB2-4793-82F3-15D1F869FA95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8D295C70-521F-48AC-8C48-3A4E83FA900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D295C70-521F-48AC-8C48-3A4E83FA900F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D295C70-521F-48AC-8C48-3A4E83FA900F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8428B099-3FB2-4793-82F3-15D1F869FA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8428B099-3FB2-4793-82F3-15D1F869FA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8428B099-3FB2-4793-82F3-15D1F869FA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8428B099-3FB2-4793-82F3-15D1F869FA95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

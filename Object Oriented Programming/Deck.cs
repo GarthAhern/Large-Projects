@@ -46,6 +46,23 @@ namespace Object_Oriented_Programming
             set;
         }
 
+        public void Shuffle(int times = 1)//optional variable times
+        {
+
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> tempList = new List<Card>();
+                Random r = new Random();
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = r.Next(0, Cards.Count);
+                    tempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = tempList;
+            }
+        }
+
         public void printDeck()
         {
             foreach (Card card in this.Cards)
