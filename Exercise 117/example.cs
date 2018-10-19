@@ -6,11 +6,71 @@ namespace Exercise_117
 {
     class example
     {
-
+        int x { get; set; }
 
         public example()
         {
+            x = 0;
+        }
+        public example(int i)
+        {
+            x = i;
+        }
+        public int getX(example e)
+        {
+            return x;
+        }
+        public void multiplyByTwo(int x)
+        {
+            x = x * 2;
 
+        }
+        public void multiplyByTwo(example e)
+        {
+            e.x = e.x * 2;
+        }
+        public void div(int x)
+        {
+            x = x / 2;
+        }
+        public void div(example e)
+        {
+            e.x = e.x / 2;
+        }
+
+
+
+
+
+
+
+
+
+
+        //Static Class
+        public static class TemperatureConverter
+        {
+            public static double CelsiusToFahrenheit(string temperatureCelsius)
+            {
+                // Convert argument to double for calculations.
+                double celsius = Double.Parse(temperatureCelsius);
+
+                // Convert Celsius to Fahrenheit.
+                double fahrenheit = (celsius * 9 / 5) + 32;
+
+                return fahrenheit;
+            }
+
+            public static double FahrenheitToCelsius(string temperatureFahrenheit)
+            {
+                // Convert argument to double for calculations.
+                double fahrenheit = Double.Parse(temperatureFahrenheit);
+
+                // Convert Fahrenheit to Celsius.
+                double celsius = (fahrenheit - 32) * 5 / 9;
+
+                return celsius;
+            }
         }
 
     }
