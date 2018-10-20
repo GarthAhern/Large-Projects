@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Person
+namespace Person 
 {
-    public class employee : person
+    public class employee : person, IQuitAble
     {
 
         int ID { get; set; }
@@ -31,5 +31,12 @@ namespace Person
         }
          
 
+        public void Quit()
+        {
+            Console.WriteLine();
+            //this.ID = 0;
+            //this.fname = "";
+            //this.lname = "";
+        }
     }
 }

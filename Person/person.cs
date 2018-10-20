@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Person
-{
-    public class person
+{ 
+    public class person 
     {
         public string fname {get; set;}
         public string lname {get; set;}
@@ -20,12 +20,11 @@ namespace Person
             fname = FirstName;
             lname = LastName;
         }
-        public void sayName()
+        public virtual void sayName()
         {
             Console.WriteLine("Name: " + "{0} {1}",fname, lname);
         }
         
-
 
     }
 }
