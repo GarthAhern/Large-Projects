@@ -38,5 +38,36 @@ namespace Person
             //this.fname = "";
             //this.lname = "";
         }
+
+
+        public override bool Equals(object obj)
+        {
+            return Math.Abs(ID - ((employee)obj).ID) <= 5;
+        }
+        public override int GetHashCode()
+        {
+            return 0;
+        }
+
+
+
+
+
+        public static bool operator!= (employee a, employee b) 
+        {
+            if (a.ID != b.ID)
+            {
+                return true;
+            }
+            else return false;
+        }
+        public static bool operator== (employee a, employee b)
+        {
+            if (a.ID == b.ID)
+            {
+                return true;
+            }
+            else return false;
+        }
     }
 }

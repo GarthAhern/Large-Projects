@@ -7,6 +7,21 @@ namespace Object_Oriented_Programming
     {
         static void Main(string[] args)
         {
+
+
+            Game g = new _21Game();
+            g.Players = new List<Player>();
+            Player pb = new Player();
+            pb.Name = "Friedrich";
+
+            g.ListPlayers();
+            g = g + pb;
+            g.ListPlayers();
+            g = g - pb;
+
+            g.ListPlayers();
+
+
             Deck d = new Deck();
             //d = Shuffle(d);
             d = Shuffle(d, 4);
@@ -15,6 +30,7 @@ namespace Object_Oriented_Programming
             Shuffle(d);
             d.printDeck();
 
+            
 
             //foreach(Card card in d.Cards)
             //{

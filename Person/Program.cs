@@ -2,11 +2,14 @@
 
 namespace Person
 {
-     class Program 
+     public class Program 
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+
+
+
 
             //person p = new person("Bob", "Chisolm");
             //p.sayName();
