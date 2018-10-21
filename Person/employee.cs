@@ -1,73 +1,103 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Person 
 {
-    public class employee : person, IQuitAble
+    public class employee<T> //: person//, IQuitAble
     {
 
-        int ID { get; set; }
-
+        public int ID { get; set; }
+        public List<T> Things { get; set; }
         
 
+        public void Add(T value)
+        {
+
+        }
         public employee()
         {
-            
+            List<T> x = new List<T>();
+            Things = x;
             ID = 0;
         }
-        public employee(int id)
+        public employee(int t, T v)
         {
-            ID = id;
+            List<T> x = new List<T>();
+            Things = x;
+            Things.Add(v);
+            ID = t;
             
-        }
-        public void setID(int s)
-        {
-            ID = s;
-        }
-        public int getID(employee e)
-        {
-            return e.ID; 
-        }
-         
+            
 
-        public void Quit()
-        {
-            Console.WriteLine();
-            //this.ID = 0;
-            //this.fname = "";
-            //this.lname = "";
         }
 
-
-        public override bool Equals(object obj)
+        
+        
+        //public employee(int id)
+        //{
+        //    ID = id;
+            
+        //}
+        public void Print()
         {
-            return Math.Abs(ID - ((employee)obj).ID) <= 5;
-        }
-        public override int GetHashCode()
-        {
-            return 0;
-        }
-
-
-
-
-
-        public static bool operator!= (employee a, employee b) 
-        {
-            if (a.ID != b.ID)
+            for (int x = 0; x < this.Things.Count; x++)
             {
-                return true;
+                Console.WriteLine(this.Things[x]);
             }
-            else return false;
+
+            Console.ReadLine();
         }
-        public static bool operator== (employee a, employee b)
-        {
-            if (a.ID == b.ID)
-            {
-                return true;
-            }
-            else return false;
-        }
+        //public void setID(int s)
+        //{
+        //    ID = s;
+        //}
+        //public int getID(employee e)
+        //{
+        //    return e.ID; 
+        //}
+
+
+
+        //public void Quit()
+        //{
+        //Console.WriteLine();
+        //this.ID = 0;
+        //this.fname = "";
+        //this.lname = "";
+        //}
+
+
+        //public override bool Equals(object obj)
+        //{
+        //    return Math.Abs(ID - ((employee)obj).ID) <= 5;
+        //}
+        //public override int GetHashCode()
+        //{
+        //    return 0;
+        //}
+
+
+
+
+
+        //public static bool operator!= (employee a, employee b) 
+        //{
+        //    if (a.ID != b.ID)
+        //    {
+        //        return true;
+        //    }
+        //    else return false;
+        //}
+        //public static bool operator== (employee a, employee b)
+        //{
+        //    if (a.ID == b.ID)
+        //    {
+        //        return true;
+        //    }
+        //    else return false;
+        //}
     }
 }
