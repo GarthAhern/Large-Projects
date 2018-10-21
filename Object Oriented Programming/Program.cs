@@ -9,28 +9,48 @@ namespace Object_Oriented_Programming
         {
 
 
-            Game g = new _21Game();
-            g.Players = new List<Player>();
-            Player pb = new Player();
-            pb.Name = "Friedrich";
-
-            g.ListPlayers();
-            g = g + pb;
-            g.ListPlayers();
-            g = g - pb;
-
-            g.ListPlayers();
+            Deck deck = new Deck();
+            deck.Shuffle(3);
 
 
-            Deck d = new Deck();
-            //d = Shuffle(d);
-            d = Shuffle(d, 4);
-            d.printDeck();
-            Console.WriteLine("-----------------------------------------------");
-            Shuffle(d);
-            d.printDeck();
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.face + " of " + card.suit);
+            }
 
-            
+            Console.WriteLine(deck.Cards.Count);
+            Console.ReadLine();
+
+            Console.WriteLine(deck.Cards.Count);
+            Console.ReadLine();
+
+
+
+
+
+
+            //Game g = new _21Game();
+            //g.Players = new List<Player>();
+            //Player pb = new Player();
+            //pb.Name = "Friedrich";
+
+            //g.ListPlayers();
+            //g = g + pb;
+            //g.ListPlayers();
+            //g = g - pb;
+
+            //g.ListPlayers();
+
+
+            //Deck d = new Deck();
+            ////d = Shuffle(d);
+            //d = Shuffle(d, 4);
+            //d.printDeck();
+            //Console.WriteLine("-----------------------------------------------");
+            //Shuffle(d);
+            //d.printDeck();
+
+
 
             //foreach(Card card in d.Cards)
             //{
@@ -40,7 +60,7 @@ namespace Object_Oriented_Programming
             //Console.WriteLine(d.Cards.Count);
 
 
-            
+
 
 
 

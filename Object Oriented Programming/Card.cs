@@ -6,20 +6,40 @@ namespace Object_Oriented_Programming
 {
     public class Card
     {
-        public Card()
+        public Suit suit{get;set;}
+        public Face face{
+            get;
+            set;
+        }
+        //public Card()
+        //{
+        //    Suit = suit.Diamonds;
+        //    Face = "Two";
+        //}
+
+        public enum Suit{
+            Clubs,
+            Diamonds,
+            Hearts,
+            Spades
+        }
+         public enum Face
         {
-            Suit = "Spades";
-            Face = "Two";
+            Two,
+            Three,
+            Four,
+            Five,
+            Six,
+            Seven,
+            Eight,
+            Nine,
+            Ten,
+            Jack,
+            Queen, 
+            King,
+            Ace
         }
-         
-        public string Suit{
-            get;
-            set;
-        }
-        public string Face{
-            get;
-            set;
-        }
+        
 
     }
 }
