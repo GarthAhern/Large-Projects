@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Page_100_Exercise_Lists_and_Arrays
 {
@@ -10,9 +11,51 @@ namespace Page_100_Exercise_Lists_and_Arrays
 
 
 
+            List<Employee> ex = new List<Employee>();
+            Employee Bob = new Employee(0, "Bob", "Jenkins");
+            ex.Add(Bob);
+            Employee Charles = new Employee(1, "Charles", "Jenkins");
+            ex.Add(Charles);
+            Employee Sally = new Employee(2, "Sally", "Mayfield");
+            ex.Add(Sally);
+            Employee George = new Employee(3, "George", "Linton");
+            ex.Add(George);
+            Employee William = new Employee(4, "William", "Bryan");
+            ex.Add(William);
+
+            Employee Laura = new Employee(5, "Joe", "Kerns");
+            ex.Add(Laura);
+            Employee Sasha = new Employee(6, "Sasha", "Renkin");
+            ex.Add(Sasha);
+            Employee Hailie = new Employee(7, "Hailie", "Benson");
+            ex.Add(Hailie);
+            Employee Randolph = new Employee(8, "Joe", "Phillips");
+            ex.Add(Randolph);
+            Employee Rachel = new Employee(9, "Rachel", "Fields");
+            ex.Add(Rachel);
+            Employee Noel = new Employee(10, "Noel", "Gallagher");
+            ex.Add(Noel);
+
+
+            foreach (Employee e in ex)
+            {
+
+                if (e.fName == "Joe")
+                {
+                    e.printE();
+                }
+            }
 
 
 
+            List<Employee> newList = ex.Where(x => x.fName == "Joe").ToList();
+            
+
+            foreach(Employee e in newList)
+            {
+                Console.WriteLine(e.fName.ToString());
+            }
+            Console.ReadLine();
 
 
 

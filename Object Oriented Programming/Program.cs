@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Object_Oriented_Programming
 {
@@ -10,34 +11,52 @@ namespace Object_Oriented_Programming
 
 
 
-
-
-
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.face = Card.Face.Four;
-            card2.face = Card.Face.Jack;
-
-            Console.WriteLine(card1.face);
-            Console.ReadLine();
-
-
-
-
+            
             Deck deck = new Deck();
-            deck.Shuffle(3);
-
-
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.face + " of " + card.suit);
+            int counter = 0;
+            foreach(Card card in deck.Cards){
+                if (card.face == Card.Face.Ace)
+                {
+                    counter++;
+                }
+                Console.WriteLine(counter);
             }
 
-            Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
 
-            Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
+            //Lambda function 
+            int c = deck.Cards.Count(x => x.face == Card.Face.Ace);
+
+
+            List<Card> newList = deck.Cards.Where(x => x.face == Card.Face.Eight).ToList();
+            
+
+
+
+            //Card card1 = new Card();
+            //Card card2 = card1;
+            //card1.face = Card.Face.Four;
+            //card2.face = Card.Face.Jack;
+
+            //Console.WriteLine(card1.face);
+            //Console.ReadLine();
+
+
+
+
+            //Deck deck = new Deck();
+            //deck.Shuffle(3);
+
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.face + " of " + card.suit);
+            //}
+
+            //Console.WriteLine(deck.Cards.Count);
+            //Console.ReadLine();
+
+            //Console.WriteLine(deck.Cards.Count);
+            //Console.ReadLine();
 
 
 
@@ -112,6 +131,9 @@ namespace Object_Oriented_Programming
             }
             return deck;
         }
+
+
+
         //public static Deck Shuffle(Deck deck, int nums)
         //{
         //    for(int i = 0; i < nums; i++)
@@ -123,4 +145,5 @@ namespace Object_Oriented_Programming
         //}
 
     }
+    
 }

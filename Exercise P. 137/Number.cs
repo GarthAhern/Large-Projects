@@ -6,7 +6,7 @@ namespace Exercise_P._137
 {
     public struct Number
     {
-        public Decimal Value { get; set; }
+        public Decimal Value; 
 
         //public Number(Decimal d)
         //{

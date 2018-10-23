@@ -12,6 +12,13 @@ namespace Exercise_P._137
 
             Number s = new Number();
             s.Value = 5.5m;
+            Console.WriteLine(s.Value);
+            Console.ReadLine();
+
+            //Lambda Expression Exercise
+
+
+
 
 
         }
