@@ -9,6 +9,21 @@ namespace Object_Oriented_Programming
         {
 
 
+
+
+
+
+            Card card1 = new Card();
+            Card card2 = card1;
+            card1.face = Card.Face.Four;
+            card2.face = Card.Face.Jack;
+
+            Console.WriteLine(card1.face);
+            Console.ReadLine();
+
+
+
+
             Deck deck = new Deck();
             deck.Shuffle(3);
 

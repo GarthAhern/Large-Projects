@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Object_Oriented_Programming
 {
-    public class Card
+    public struct Card
     {
         public Suit suit{get;set;}
         public Face face{
