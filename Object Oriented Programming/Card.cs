@@ -17,6 +17,11 @@ namespace Object_Oriented_Programming
         //    Face = "Two";
         //}
 
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", face, suit);
+        }
+
         public enum Suit{
             Clubs,
             Diamonds,

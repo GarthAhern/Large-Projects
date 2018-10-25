@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ConsoleApp1
 {
@@ -11,108 +12,130 @@ namespace ConsoleApp1
 
         static void Main(string[] args) {
 
-            int x = 0;
-            bool speed = false;
-            while (speed == false)
-            {
-                switch (x)
-               {
 
-                        case 1:
-
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-
-
-                case 2:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-
-                case 3:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-                case 4:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-                case 5:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-                case 6:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-                case 7:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-
-                case 8:
-                    Console.WriteLine("Sorry, but no.");
-                    break;
-                case 9:
-                    Console.WriteLine("Congrats.");
-                        speed = true;
-                        break;
-
-                default:
-                    Console.WriteLine("You are wrong");
-                        
-                        break;
-                }
-                x++;
-            }
+            Console.WriteLine("Please provide us with a number: ");
+            string s = Console.ReadLine();
+            File.WriteAllText(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt", s);
+            Console.WriteLine(File.ReadAllText(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt"));
             Console.ReadLine();
+           
 
 
 
-            int y = 0;
-            bool choice = true;
+            //string text = "Here is some text.";
+            //File.WriteAllText(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt", text);
+
+            //string text2 = File.ReadAllText(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt");
+            //Console.WriteLine(text2);
+            //Console.ReadLine();
+
+
+
+
+
+
+            //int x = 0;
+            //bool speed = false;
+            //while (speed == false)
+            //{
+            //    switch (x)
+            //   {
+
+            //            case 1:
+
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+
+
+            //    case 2:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+
+            //    case 3:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+
+            //    case 8:
+            //        Console.WriteLine("Sorry, but no.");
+            //        break;
+            //    case 9:
+            //        Console.WriteLine("Congrats.");
+            //            speed = true;
+            //            break;
+
+            //    default:
+            //        Console.WriteLine("You are wrong");
+                        
+            //            break;
+            //    }
+            //    x++;
+            //}
+            //Console.ReadLine();
+
+
+
+            //int y = 0;
+            //bool choice = true;
             
-                do
-            {
-                switch (y)
-                {
+            //    do
+            //{
+            //    switch (y)
+            //    {
 
-                    case 1:
+            //        case 1:
 
-                        Console.WriteLine("Sorry, but no.");
-                        break;
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
 
 
-                    case 2:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
+            //        case 2:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
 
-                    case 3:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 4:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 5:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 6:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 7:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
+            //        case 3:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 4:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 5:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 6:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 7:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
 
-                    case 8:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 9:
-                        Console.WriteLine("Congrats.");
+            //        case 8:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 9:
+            //            Console.WriteLine("Congrats.");
                         
-                        break;
+            //            break;
 
-                    default:
-                        Console.WriteLine("You are wrong");
-                        choice = true;
-                            break;
-                }
-            }
-            while (choice == false);
-            Console.ReadLine();
+            //        default:
+            //            Console.WriteLine("You are wrong");
+            //            choice = true;
+            //                break;
+            //    }
+            //}
+            //while (choice == false);
+            //Console.ReadLine();
 
 
 

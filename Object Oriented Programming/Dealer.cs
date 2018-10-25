@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Object_Oriented_Programming
 {
-    class Dealer
+    public class Dealer
     {
 
         public string Name { get; set; }
@@ -17,8 +18,16 @@ namespace Object_Oriented_Programming
         {
 
             Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
-            Deck.Cards.RemoveAt(0);
+            
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+
+            Console.WriteLine(card);
+
+            using (StreamWriter file = new StreamWriter(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt", true))
+            {
+                file.WriteLine(card);
+            }
+                Deck.Cards.RemoveAt(0);
 
         }
     }

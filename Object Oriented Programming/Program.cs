@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 
 namespace Object_Oriented_Programming
 {
@@ -8,26 +9,71 @@ namespace Object_Oriented_Programming
     {
         static void Main(string[] args)
         {
+            //string text = "Here is some text.";
+            //File.WriteAllText(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt", text);
+
+            //string text2 = File.ReadAllText(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt");
+            //Console.WriteLine(text2);
+            //Console.ReadLine();
+
+
+
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling us your name: ");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring to spend?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new _21Game();
+                game += player;
+                player.isActivelyPlaying = true;
+
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.playGame();
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing");
+            }
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
             
-            Deck deck = new Deck();
-            int counter = 0;
-            foreach(Card card in deck.Cards){
-                if (card.face == Card.Face.Ace)
-                {
-                    counter++;
-                }
-                Console.WriteLine(counter);
-            }
+            //Deck deck = new Deck();
+            //int counter = 0;
+            //foreach(Card card in deck.Cards){
+            //    if (card.face == Card.Face.Ace)
+            //    {
+            //        counter++;
+            //    }
+            //    Console.WriteLine(counter);
+            //}
 
 
-            //Lambda function 
-            int c = deck.Cards.Count(x => x.face == Card.Face.Ace);
+            ////Lambda function 
+            //int c = deck.Cards.Count(x => x.face == Card.Face.Ace);
 
 
-            List<Card> newList = deck.Cards.Where(x => x.face == Card.Face.Eight).ToList();
+            //List<Card> newList = deck.Cards.Where(x => x.face == Card.Face.Eight).ToList();
             
 
 
