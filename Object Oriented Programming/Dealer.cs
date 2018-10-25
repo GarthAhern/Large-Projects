@@ -25,6 +25,7 @@ namespace Object_Oriented_Programming
 
             using (StreamWriter file = new StreamWriter(@"C:\Users\TechAcademyStudent\Desktop\Text\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
                 Deck.Cards.RemoveAt(0);

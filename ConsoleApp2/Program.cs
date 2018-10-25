@@ -9,108 +9,141 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
 
-            int x = 0;
-            bool speed = false;
-            while (speed == false)
-            {
-                switch (x)
-                {
-
-                    case 1:
-
-                        Console.WriteLine("Sorry, but no.");
-                        break;
 
 
-                    case 2:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-
-                    case 3:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 4:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 5:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 6:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 7:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-
-                    case 8:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 9:
-                        Console.WriteLine("Congrats.");
-                        speed = true;
-                        break;
-
-                    default:
-                        Console.WriteLine("You are wrong");
-
-                        break;
-                }
-                x++;
-            }
+            DateTime x = DateTime.Now;
+            Console.WriteLine("The date now is: " + x);
+            Console.ReadLine();
+            Console.WriteLine("Please enter an integer x to represent a number of hours to be added to the previous DateTime.");
+            int y = Convert.ToInt32(Console.ReadLine());
+            DateTime z = x.AddHours(y);
+            Console.WriteLine("The time it will be in {0} hours is: {1}", y, z);
             Console.ReadLine();
 
 
 
-            int y = 0;
-            bool choice = true;
-
-            do
-            {
-                switch (y)
-                {
-
-                    case 1:
-
-                        Console.WriteLine("Sorry, but no.");
-                        break;
 
 
-                    case 2:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
 
-                    case 3:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 4:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 5:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 6:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 7:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
 
-                    case 8:
-                        Console.WriteLine("Sorry, but no.");
-                        break;
-                    case 9:
-                        Console.WriteLine("Congrats.");
+            //DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
+            //DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 34, 23);
 
-                        break;
+            //TimeSpan t = yearOfGraduation - yearOfBirth;
+            //Console.WriteLine(t);
+            //Console.ReadLine();
 
-                    default:
-                        Console.WriteLine("You are wrong");
-                        choice = true;
-                        break;
-                }
-            }
-            while (choice == false);
-            Console.ReadLine();
+            //DateTime b = DateTime.Now;
+            //Console.WriteLine(b.ToString());
+            //Console.WriteLine(b);
+            //Console.WriteLine(b.Year);
+            //Console.ReadLine();
+
+
+
+
+            //int x = 0;
+            //bool speed = false;
+            //while (speed == false)
+            //{
+            //    switch (x)
+            //    {
+
+            //        case 1:
+
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+
+            //        case 2:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+            //        case 3:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 4:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 5:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 6:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 7:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+            //        case 8:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 9:
+            //            Console.WriteLine("Congrats.");
+            //            speed = true;
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("You are wrong");
+
+            //            break;
+            //    }
+            //    x++;
+            //}
+            //Console.ReadLine();
+
+
+
+            //int y = 0;
+            //bool choice = true;
+
+            //do
+            //{
+            //    switch (y)
+            //    {
+
+            //        case 1:
+
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+
+            //        case 2:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+            //        case 3:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 4:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 5:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 6:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 7:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+
+            //        case 8:
+            //            Console.WriteLine("Sorry, but no.");
+            //            break;
+            //        case 9:
+            //            Console.WriteLine("Congrats.");
+
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("You are wrong");
+            //            choice = true;
+            //            break;
+            //    }
+            //}
+            //while (choice == false);
+            //Console.ReadLine();
 
 
 
