@@ -26,6 +26,10 @@ namespace Object_Oriented_Programming
             }
         }
 
+        public Player(string name) : this(name, 100)
+        {
+
+        }
 
         public Player(string name, int beginningBalance)
             
