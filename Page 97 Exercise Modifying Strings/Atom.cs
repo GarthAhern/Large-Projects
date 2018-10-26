@@ -10,6 +10,7 @@ namespace Page_97_Exercise_Modifying_Strings
         public string Name { get; set; }
         public int AtomicNumber { get; set; }
         public decimal AtomicWeight { get; set; }
+
         public Atom(string name, int atomicnumber, decimal atomicweight)
         {
             Name = name;
@@ -47,10 +48,5 @@ namespace Page_97_Exercise_Modifying_Strings
         const string specificHeatofWater = "4.186m joule/gram °C ";
         const int y = 5;
 
-
-
-        
-
     }
-
 }
