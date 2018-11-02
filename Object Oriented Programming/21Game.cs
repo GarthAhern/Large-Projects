@@ -40,7 +40,7 @@ namespace Object_Oriented_Programming
                 }
                 if(bet < 0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("Kick this Person Out.");
                 }
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)

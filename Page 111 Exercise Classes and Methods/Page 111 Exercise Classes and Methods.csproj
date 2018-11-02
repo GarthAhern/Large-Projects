@@ -6,4 +6,8 @@
     <RootNamespace>Page_111_Exercise_Classes_and_Methods</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+  </ItemGroup>
+
 </Project>

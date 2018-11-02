@@ -6,4 +6,8 @@
     <RootNamespace>Page_97_Exercise_Modifying_Strings</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+  </ItemGroup>
+
 </Project>
